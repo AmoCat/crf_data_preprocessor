@@ -3,7 +3,7 @@ import CRFPP
 import os
 import sys
 
-MODEL_PATH = os.path.join(os.path.dirname(__file__),'hotel.model')
+MODEL_PATH = os.path.join(os.path.dirname(__file__),'model')
 tagger = CRFPP.Tagger("-m %s"%(MODEL_PATH))
 
 def crftagger():

@@ -5,7 +5,7 @@ import os
 import sys
 from pyltp import Segmentor,Postagger,NamedEntityRecognizer
 
-MODELDIR = './ltp_data/'
+MODELDIR = '../ltp_data/'
 
 def ltp():
 	segmentor = Segmentor()
